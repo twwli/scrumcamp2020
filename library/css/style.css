@@ -91,12 +91,12 @@ html, body {
 }
 
 body {
-  font-family: 'Space Grotesk', helvetica Neue ,sans-serif;
+  font-family: 'Museo Sans', helvetica Neue ,sans-serif;
   font-feature-settings: "liga","kern";
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #327364;
+  color: #252a37;
   letter-spacing: 1px;
   line-height: 1.5;
 }
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-family: 'Space Mono', courrier, monospace;
+  font-family: 'Museo Sans', courrier, monospace;
   letter-spacing: 0;
   opacity: .85;
 }
@@ -178,7 +178,7 @@ small {
 }
 
 main li {
-  font-family: 'Space Mono', courrier, monospace;
+  font-family: 'Museo Sans', courrier, monospace;
   letter-spacing: 0;
   opacity: .85;
   margin-bottom: 1em;
@@ -221,59 +221,9 @@ strong, b {
   #Fonts
 ==============================================================================*/
 
-/* space-mono-regular */
-@font-face {
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Space Mono'), local('SpaceMono-Regular'),
-       url('../fonts/space-mono-v3-latin-regular.woff2') format('woff2'),
-       url('../fonts/space-mono-v3-latin-regular.woff') format('woff');
-}
-
-/* space-mono-700 */
-@font-face {
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Space Mono Bold'), local('SpaceMono-Bold'),
-       url('../fonts/space-mono-v3-latin-700.woff2') format('woff2'),
-       url('../fonts/space-mono-v3-latin-700.woff') format('woff');
-}
-
-/* space-grotesk-light */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Space Grotesk'), local('SpaceGrotesk-Light'),
-       url('../fonts/SpaceGrotesk-Light.woff2') format('woff2'),
-       url('../fonts/SpaceGrotesk-Light.woff') format('woff');
-}
-
-/* space-grotesk-regular */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Space Grotesk'), local('SpaceGrotesk-Regular'),
-       url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
-       url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
-}
-
-/* space-grotesk-medium */
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Space Grotesk Medium'), local('SpaceGrotesk-Medium'),
-       url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
-       url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
-}
-
 /* space-grotesk-bold */
 @font-face {
-  font-family: 'Space Grotesk';
+  font-family: 'Museo Sans';
   font-style: normal;
   font-weight: 700;
   src: local('Space Grotesk Bold'), local('SpaceGrotesk-Bold'),
@@ -498,7 +448,7 @@ Custom Styles
 }
 
 .col-container .one-half.middle-aligned {
-  font-family: 'Space Grotesk', helvetica Neue ,sans-serif;
+  font-family: 'Museo Sans', helvetica Neue ,sans-serif;
   float: none !important;
   margin: -3vw auto 5vw;
   width: 90%;
@@ -551,7 +501,7 @@ Custom Styles
 
 #home .underlined:after {
   height: 25%;
-  background: #ff5943;
+  background: #ee3355;
   opacity: 1;
 }
 
@@ -559,7 +509,7 @@ Custom Styles
 .bg-light-blue{ background-color: rgba(30,80,70,.05);}
 .bg-purple { background-color: #327364; color: #fff;}
 .bg-dark { background-color: #327364; color: #fff;}
-.bg-orange {background-color: #ff5943; color: #fff;}
+.bg-orange {background-color: #ee3355; color: #fff;}
 
 /* BTNs */
 
@@ -657,19 +607,19 @@ Header
 }}
 
 #navbar {
-  background-color: #f3f6f5; 
+  background-color: #fff; 
   padding: 30px 0;
   transition: all 0.3s;
 }
 
-.home #navbar.header-dark {
+/* .home #navbar.header-dark {
   background: #327364;
   color: #f3f6f5;
-}
+} 
 
 .home #navbar.header-dark a {
   color: #f3f6f5;
-}
+} */
 
 .single #navbar,
 .blog #navbar,
@@ -857,7 +807,7 @@ Header
 
 
 #menu {
-  background: #ff5943;
+  background: #ee3355;
   left: 0;
   right: 0;
   opacity: 0;
@@ -1173,10 +1123,10 @@ Slider
 Home
 ========================================================================== */
 
-#home {
+/* #home {
   background: #327364;
   color: #f3f6f5;
-}
+} */
 
 
 .home #home.section .container {
@@ -1238,7 +1188,7 @@ Home
 }
 
 .scroll-down-btn span {
-  font-family: 'Space Mono', courrier, monospace;
+  font-family: 'Museo Sans', courrier, monospace;
   font-size: .85em;
   -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
@@ -1460,7 +1410,7 @@ Newsletter
 
 #newsletter div.wpcf7-validation-errors, #newsletter div.wpcf7-acceptance-missing {
   background: #f7e700;
-  color: #ff5943;
+  color: #ee3355;
 }
 
 #newsletter input.wpcf7-form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -1532,7 +1482,7 @@ Attendees and Organizer Team
 
 #team .speaker-role,
 #attendees .speaker-role {
-  font-family: 'Space Mono', courrier, monospace;
+  font-family: 'Museo Sans', courrier, monospace;
   font-size: .85em;
   letter-spacing: 0;
 }
@@ -1643,7 +1593,7 @@ Schedule
 }
 
 #proposed-sessions .time {
-  font-family: 'Space Mono', courrier, monospace;
+  font-family: 'Museo Sans', courrier, monospace;
   letter-spacing: 0;
 }
 
@@ -1651,7 +1601,7 @@ Schedule
   display: none;
 }
 
-#proposed-sessions .tab-content li.Workshop:before { background: #ff5943;}
+#proposed-sessions .tab-content li.Workshop:before { background: #ee3355;}
 #proposed-sessions .tab-content li.Exercise:before {  background: #26d8b4;}
 #proposed-sessions .tab-content li.Experience:before {  background: #10c1f4;}
 #proposed-sessions .tab-content li.Game:before {  background: #f9d61d;}
@@ -1855,7 +1805,7 @@ COOKIES CONSENT BANNER
 .qc-cmp-ui .qc-cmp-vendor-list-title,
 .qc-cmp-purpose-description {
     color: #1e5046 !important;
-    font-family: 'Space Grotesk', helvetica Neue ,sans-serif !important;
+    font-family: 'Museo Sans', helvetica Neue ,sans-serif !important;
 }
 
 .qc-cmp-ui a,
@@ -2195,11 +2145,11 @@ Form Pages
   font-size: .9em;
   letter-spacing: 0;
   min-height: auto !important;
-  font-family: 'Space Grotesk', helvetica Neue ,sans-serif;
+  font-family: 'Museo Sans', helvetica Neue ,sans-serif;
 }
 
 .intro-form-container p {
-  font-family: 'Space Grotesk', helvetica Neue ,sans-serif;
+  font-family: 'Museo Sans', helvetica Neue ,sans-serif;
   margin-bottom: 1em;
   opacity: 1;
 }
@@ -2454,7 +2404,7 @@ Blog Overview
 .post-category {
   text-transform: uppercase;
   font-size: .75em;
-  background: #ff5943;
+  background: #ee3355;
   color: #fff;  
   letter-spacing: 1px;  
   font-weight: 700;  
@@ -2466,7 +2416,7 @@ Blog Overview
   font-size: 3em;
   font-weight: 700;
   line-height: 1em;
-  box-shadow: inset 0 -16px 0 0 #ff5943;
+  box-shadow: inset 0 -16px 0 0 #ee3355;
 }
 
 .blog article,
@@ -2538,7 +2488,7 @@ Blog Overview
 
 .post-type-archive .post-category.medal.Gold,
 .medal.Gold {
-  background: #ff5943 !important;
+  background: #ee3355 !important;
 }
 
 .post-type-archive .post-category.medal.Silver,
@@ -2567,7 +2517,7 @@ Single Blog Post & Single Sponsors
 }
 
 .single-post-category {
-  background: #ff5943;
+  background: #ee3355;
   color: #fff;
 }
 
@@ -2582,7 +2532,7 @@ Single Blog Post & Single Sponsors
 
 .single-post .container.post-content, .single-post .container.post-content p, .single-post .container.post-content li,
 .single-partners .container.post-content, .single-partners .container.post-content p, .single-partners .container.post-content li  {
-  font-family: 'Space Grotesk', helvetica Neue ,sans-serif;
+  font-family: 'Museo Sans', helvetica Neue ,sans-serif;
   font-size: 1em;
   line-height: 1.75em;
   margin-bottom: 2em;
@@ -2701,7 +2651,7 @@ Single Blog Post & Single Sponsors
   right: -1px;
   height: 25%;
   bottom: 10%;
-  background: #ff5943;
+  background: #ee3355;
   z-index: -1;
   
   -webkit-transition: all 200ms ease-in;
@@ -2741,7 +2691,7 @@ Single Blog Post & Single Sponsors
 .tag-title {
   position: relative;
   padding: 4px 10px;
-  font-family: 'Space Grotesk', helvetica Neue ,sans-serif;
+  font-family: 'Museo Sans', helvetica Neue ,sans-serif;
   font-size: .75em;
   text-transform: uppercase;
   border: 1px solid rgba(40,60,115,.15);
@@ -2832,7 +2782,7 @@ Single Blog Post & Single Sponsors
 .st0 {fill:#283c73;}
 .st1{fill:#fff}
 
-.share-email {font-family: 'Space Grotesk', helvetica Neue ,sans-serif; font-size: 1em; font-weight: 700;}
+.share-email {font-family: 'Museo Sans', helvetica Neue ,sans-serif; font-size: 1em; font-weight: 700;}
 .share-twitter svg {width: 15px;}
 .share-facebook svg {width: 10px;}
 .share-linkedin svg {width: 15px;}

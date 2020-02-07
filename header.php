@@ -44,7 +44,7 @@
 			<header id="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
         <div id="navbar" class="clearfix header-dark" >
   				<div class="inner-header fadeIn" data-wow-duration="600ms" data-wow-delay="1000ms">
-            <a id="logo" class="h1" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow">ACB <span class="year">2020</span></a>
+            <a id="logo" class="h1" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow">SC <span class="year">2020</span></a>
             <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
   						<?php wp_nav_menu(array(
   		         'container' => false,                           // remove nav container
@@ -66,7 +66,7 @@
 			</header>
 
       <div id="mobile-nav">
-        <a id="mobile-logo" class="h1" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow">ACB <span class="year">2020</span></a>
+        <a id="mobile-logo" class="h1" itemscope itemtype="http://schema.org/Organization" href="<?php echo home_url(); ?>" rel="nofollow">SC <span class="year">2020</span></a>
         <a class="get-tickets" href="https://2020.agile-camp-berlin.com/register/" target="_blank">Get Tickets</a>
         <!-- Toggle Nav -->
         <nav class="nav">

@@ -1,4 +1,4 @@
-<section id="home" class="section bg-light-blue">
+<section id="home" class="section">
   <div class="home-content container clearfix">
     <div class="home-text">
       <span class="home-text-details details-top wow fadeIn" data-wow-duration="600ms" data-wow-delay="2200ms">BERLIN 2020</span>
@@ -20,6 +20,9 @@
     </a>
     <a class="aop-logo wow fadeIn" data-wow-duration="600ms" data-wow-delay="1000ms" href="https://age-of-product.com" target="_blank">
       <img width="80" height="84" src="<?php echo get_template_directory_uri(); ?>/library/images/hoa.svg" alt="" />
+    </a>
+    <a class="aop-logo wow fadeIn" data-wow-duration="600ms" data-wow-delay="1000ms" href="https://berlin-product-people.com/" target="_blank">
+      <img width="80" height="84" src="<?php echo get_template_directory_uri(); ?>/library/images/bpl.svg" alt="" />
     </a>
   </div>
 </section>
